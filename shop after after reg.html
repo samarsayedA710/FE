@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+<div class="back">
+  <nav>
+    <ul>
+        <li><a href="Home page1.html">HOME</a></li>
+        <li><a href="shop befoe after reg.html">SHOP</a></li>
+        <li><a href="editorial.html">EDITORIAL</a></li>
+        <li><a href="about1.html">ABOUT</a></li>
+        
+    </ul>
+    <div class="logo-container">
+      <img src="image/Logo 1.png" alt="logo">
+  </div>
+  <div class="search-container">
+    <input type="text" placeholder="WHAT ARE YOU LOOKING FOR? " >
+    <img src="image/Component 2.png" alt="image">
+    
+</div>
+
+</nav>
+<div class="line"></div>
+<h1 class="shop2">Shop</h1>
+<div>
+  <button class="butto1"onclick="window.location.href='shoping card.html'"></button>
+  <button class="butto2" id="menuButton"></button>
+  <div id="menuContent" class="menu-content">
+    <a href="manage-my-account.html"><img src="image/my.png"> My Account</a>
+    <a href="order-user.html"> <img src="image/ordd.png">  My Order</a>
+    <a href="C:/Users/Win11/Desktop/Graduation Project/user-befor-reg/Registration page.html"><img src="image/logout.png">  Logout</a>
+  </div>
+</div>
+
+</div>
+<div class="2">
+<button class="text-image-button" onclick="window.location.href=' shop befoe after reg.html'">
+  <img src="image/system-uicons_filtering.png" alt="image">
+  Filter by Categroy
+</button>
+<div  >
+  <img class="chatbot" src="image/ChatBot.png">
+  </div>
+<div class="categories">
+  <div class="category" >All furniture</div>
+  <div class="category" id="category1">Chairs</div>
+  <div class="category" id="category2">Sofas</div>
+  <div class="category" id="category1">Tables</div>
+  <div class="category" id="category2">Kithchen</div>
+  <div class="category" id="category1">Decorations</div>
+  <div class="category" id="category2">Out_door</div>
+</div>
+</div>
+
+<div class="image-container" id="imageContainer1">
+  <!-- صور Category 1 -->
+  <img src="image/a.png" alt="Image 1">
+  <img src="image/a.png" alt="Image 2">
+</div>
+
+<div class="image-container" id="imageContainer2">
+  <!-- صور Category 2 -->
+  <img src="image/b.png" alt="Image 3">
+  <img src="image/b.png" alt="Image 4">
+</div>
+<div onclick="handleProductClick('Product 3')" id="product-container"></div>
+
+
+<button class="bb" id="load-more-btn">more...</button>
+<div class="group1-76-2mC" id="22:8014">
+  <div class="frame1-859-Lmt" id="23:8095">
+  <div class="group1-73-V8z" id="22:8016">
+  <p class="free1-delivery-EcN" id="22:8017">Free Delivery</p>
+  <p class="for1-all-oders-over-500egp-B1p" id="22:8018">For all oders over 500EGP.</p>
+  </div>
+  <div class="group1-74-fxa" id="22:8019">
+  <p class="days1-return-ccv" id="22:8020">28 Days Return</p>
+  <p class="if1-goods-have-problems-kDL" id="22:8021">If goods have problems.</p>
+  </div>
+  <div class="group1-75-Uf8" id="22:8022">
+  <p class="secure1-payment-Qog" id="22:8023">Secure Payment</p>
+  <p class="secure1-payment-LhL" id="22:8024">100% secure payment</p>
+  </div>
+  </div>
+  </div>
+<script src="scripte/script.js"></script>
+<script>
+  
+  document.getElementById("menuButton").addEventListener("click", function() {
+    var menu = document.getElementById("menuContent");
+    if (menu.style.display === "block") {
+      menu.style.display = "none";
+    } else {
+      menu.style.display = "block";
+    }
+  });
+</script>
+  </body>
+</html>
